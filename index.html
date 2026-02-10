@@ -12,6 +12,9 @@
 </head>
 
 <body class="bg-info-subtle">
+	<audio id="bgMusic" autoplay loop muted>
+    <source src="Song.mp3" type="audio/mpeg">
+  </audio>
 
 <center class="sp">
 	<img src="defense.png">
@@ -109,13 +112,13 @@
 	
 </center>
 <p>
-	The Sea Force Weapons of the IDAI Weapon Sector represent the embodiment of maritime dominance, combining tradition with futuristic innovation. Known ceremonially as the Oceanic Vanguard, this division commands the vast expanse of the seas with aircraft carriers, submarines, destroyers, and advanced naval systems. Each vessel is more than a machine of war — it is a symbol of resilience, precision, and strategic reach, designed to project power across oceans and safeguard global waterways.<br><br>
+	The IDAI Navy Force is a multidimensional maritime power designed to dominate every aspect of naval warfare. Its doctrine unites carriers, submarines, destroyers, artillery platforms, and autonomous drones into a single shield of supremacy. Each division bears the Roaring Lion emblem, symbolizing courage, honor, and eternal sovereignty across the seas.<br><br>
 
-	At the core of the Oceanic Vanguard lies its AI-enhanced naval architecture, where every ship operates as part of a synchronized network. Aircraft carriers launch stealth jets and drones guided by predictive algorithms, submarines employ adaptive stealth to evade detection, and destroyers integrate electronic warfare systems to neutralize threats before they strike. The sea force thrives on multidimensional strength, combining surface, subsurface, and aerial capabilities into one cohesive shield and sword of maritime supremacy.<br><br>
+At the surface, the Oceanic Dominion Fleet commands with colossal aircraft carriers and battleships. These floating fortresses, such as the Sky Fortress and Solaris Dominion, project unmatched aerial supremacy and resilience. Beneath the waves, the Abyssal Spearhead operates as unseen predators, deploying advanced submarines like the Abyssal Harbinger and Shadow Leviathan to strike silently and decisively.<br><br>
 
-	Ceremonially, the Sea Force Weapons embody depth, endurance, and guardianship. Its insignia — a submarine and carrier framed by waves — reflects both the hidden strength beneath the surface and the commanding presence above it. Rituals of deployment and naval affirmations reinforce unity among crews, transforming operations into celebrated acts of loyalty and pride. Each vessel carries its own emblem and motto, binding sailors to a shared legacy of honor and duty.<br><br>
+The Tidal Storm Assembly ensures rapid disruption with destroyers and frigates, cutting through contested waters with speed and layered firepower. Meanwhile, the Crimson Wave Corps embodies overwhelming destruction, unleashing storms of missiles and artillery fire to reshape horizons. Finally, the Phantom Tide Squadron represents the future of naval combat, deploying autonomous drones and unmanned vessels that operate as spectral hunters, unpredictable and lethal.<br><br>
 
-	In the grand vision of IDAI, the Oceanic Vanguard is the guardian of horizons. It ensures freedom of movement, secures trade routes, and projects deterrence across the globe. More than a fleet, it is a legacy of wisdom and might — a force that sails not only with firepower, but with purpose, destined to be remembered as the eternal shield of the seas.
+Together, these divisions form not just a navy but a living monument of maritime supremacy. The IDAI Navy Force is celebrated as the guardian of oceans, ensuring deterrence, dominance, and the eternal roar of sovereignty across every tide.   <br><br>
 
 	<center>
 		<a href="https://rayaantasnim.github.io/IDAI-Navy-Force/" class="btn btn-warning">See More</a>
@@ -148,6 +151,13 @@
 	</center>
 </p>
 
-
+<script>
+    window.addEventListener("click", () => {
+      const audio = document.getElementById("bgMusic");
+      audio.muted = false;
+      audio.play();
+    }, { once: true });
+  </script>
 </body>
+
 </html>
